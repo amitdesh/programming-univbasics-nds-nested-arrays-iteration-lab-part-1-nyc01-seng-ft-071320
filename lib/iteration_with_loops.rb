@@ -8,7 +8,7 @@ def find_even_values(src)
     even_array = []
     while src[count] < src.count do
       if src[count][inner_count] % 2
-        even_array << src[count][inner_count]
+        even_array.append(src[count][inner_count])
       end
       inner_count +=1
     end

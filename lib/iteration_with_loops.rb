@@ -6,7 +6,7 @@ def find_even_values(src)
   while count < src.count do
     inner_count = 0
     even_array = []
-    while inner_count < src[count] do
+    while inner_count < src[count].count do
       if src[count][inner_count] % 2
         x = src[count][inner_count]
         even_array.push(x)

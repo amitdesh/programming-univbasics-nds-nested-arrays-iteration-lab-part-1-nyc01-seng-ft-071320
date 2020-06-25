@@ -14,6 +14,6 @@ def find_even_values(src)
       inner_count +=1
     end
     count +=1
-  return even_array
+  return p even_array
   end
 end
